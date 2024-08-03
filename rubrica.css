@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(2, 2, 4);
+    color: rgb(34, 180, 85);
+}
+
+.custom-shadow{
+    box-shadow: 5px  5px 10px rgb(32, 72, 41);
+}
+
+.btn-custom{
+    height: 100px;
+    width: 200;
+    color: rgb(34, 180, 85);
+    background-color: transparent;
+    border: 1.5px solid rgb(32, 72, 41);
+    display: block;
+    margin:  auto;
+}
+.btn-custom:hover{
+    background-color:rgb(34, 180, 85); 
+    color:rgb(2, 2, 4); ;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+
+.card-custom{
+    box-shadow: 5px  5px 10px rgb(32, 72, 41), -5px  -5px 10px rgb(32, 72, 41);
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.icon{
+    cursor: pointer;
+}
